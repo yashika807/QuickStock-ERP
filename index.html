@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>QuickStock ERP - Inventory Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>QuickStock Inventory Manager</h1>
+
+    <div class="form-container">
+        <h2>Add Product</h2>
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="number" id="productQuantity" placeholder="Quantity">
+        <button onclick="addProduct()">Add Product</button>
+    </div>
+
+    <div class="inventory-list">
+        <h2>Inventory</h2>
+        <ul id="inventory"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
