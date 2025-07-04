@@ -1,30 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: Arial, sans-serif; /* using a simple font that looks clean */
+    margin: 40px; /* giving some space around everything */
+    background-color: #f4f4f4; /* soft gray background, looks nice */
+    color: #333; /* dark color but not full black */
 }
 
 h1 {
-    text-align: center;
+    text-align: center; /* keeping the heading in the middle */
 }
 
 .form-container, .inventory-list {
-    background-color: white;
-    padding: 20px;
-    margin: 20px auto;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    background-color: white; /* white box so it's easy to see */
+    padding: 20px; /* adding space inside the box */
+    margin: 20px auto; /* putting the box in the center */
+    width: 300px; /* not too big, not too small */
+    border-radius: 10px; /* making the corners soft and round */
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); /* adding a little shadow to make it look better */
 }
 
 input[type="text"], input[type="number"] {
-    width: 90%;
-    padding: 8px;
-    margin: 10px 0;
+    width: 90%; /* almost the full width of the box */
+    padding: 8px; /* makes typing more comfortable */
+    margin: 10px 0; /* giving some space between things */
 }
 
 button {
-    padding: 10px 20px;
-    cursor: pointer;
+    padding: 10px 20px; /* making the button bigger so it's easy to click */
+    cursor: pointer; /* shows that the button can be clicked */
 }
