@@ -18,4 +18,4 @@ QuickStock is a lightweight ERP module to help track inventory levels, manage pr
 - Database: SQLite / MongoDB
 
 ## Team
-Team Codestorm ERP
+Team MiniCode
